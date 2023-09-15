@@ -15,6 +15,7 @@ public class Ejercicio2 {
         int numero3 = 0;
 
 
+
         System.out.print("Indique el primer numero: ");
             numero1 = sc.nextInt();
         System.out.print("Indique el segundo numero: ");
