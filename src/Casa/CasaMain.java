@@ -7,15 +7,15 @@ public class CasaMain {
 
 
 
-        String letra = JOptionPane.showInputDialog(null, "Introduce una letra");
+        String nombre = JOptionPane.showInputDialog(null, "introduzca tu nombre");
+        int edad = Integer.parseInt(JOptionPane.showInputDialog(null, "introduzca tu edad"));
 
 
 
-
-        if (letra == letra.toUpperCase()){
-            JOptionPane.showMessageDialog(null, "Es mayuscula");
+        if (edad >= 18){
+            JOptionPane.showMessageDialog(null, "bienvenido "+nombre);
         } else {
-            JOptionPane.showMessageDialog(null, "Es minuscula");
+            JOptionPane.showMessageDialog(null, "usted no puede acceder a nuestro sistema al tener  "+edad+" años");
         }
     }
 }
