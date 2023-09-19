@@ -13,7 +13,7 @@ public class Ejercicio2 {
         int numero1 = 0;
         int numero2 = 0;
         int numero3 = 0;
-
+    
 
 
         System.out.print("Indique el primer numero: ");
