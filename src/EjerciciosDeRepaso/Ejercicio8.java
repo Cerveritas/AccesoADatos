@@ -14,12 +14,8 @@ public class Ejercicio8 {
         list.add("Mercedes");
         list.add("Ford");
 
-
         pares(list);
-
-
     }
-
 
     public static void pares(ArrayList<String> list){
         for (int i = 0; i < list.size(); i += 2)
