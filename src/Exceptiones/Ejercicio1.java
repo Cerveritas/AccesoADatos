@@ -1,6 +1,4 @@
-package EjerciciosDeRepaso.Exceptiones;
-
-import java.util.Arrays;
+package Exceptiones;
 
 public class Ejercicio1 {
     public static void main(String[] args) {

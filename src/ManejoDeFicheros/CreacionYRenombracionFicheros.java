@@ -1,4 +1,4 @@
-package EjerciciosDeRepaso.ManejoDeFicheros;
+package ManejoDeFicheros;
 
 import java.io.File;
 import java.io.IOException;

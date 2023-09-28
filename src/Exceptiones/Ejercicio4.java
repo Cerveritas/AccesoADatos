@@ -1,4 +1,4 @@
-package EjerciciosDeRepaso.Exceptiones;
+package Exceptiones;
 
 import java.util.Scanner;
 

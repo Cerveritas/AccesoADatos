@@ -1,4 +1,4 @@
-package EjerciciosDeRepaso.Exceptiones;
+package Exceptiones;
 
 public class Ejercicio5 {
       public static void main(String[] args) throws MiException {

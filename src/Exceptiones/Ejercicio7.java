@@ -1,4 +1,4 @@
-package EjerciciosDeRepaso.Exceptiones;
+package Exceptiones;
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -14,8 +14,8 @@ public class Ejercicio7 {
         try {
 
 
-            // Intenta establecer una conexión con el servidor de base de datos
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mi_basededatos", "usuario", "contraseña");
+            // Intenta establecer una conexión con el servidor de base de datosusuario
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mi_basededatos", "", "contraseña");
 
             // Realiza operaciones en la base de datos
 

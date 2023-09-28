@@ -1,11 +1,9 @@
-package EjerciciosDeRepaso.Exceptiones;
+package Exceptiones;
 
 
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.Stack;
 
 
 public class Ejercicio6 {
