@@ -10,13 +10,6 @@ public class Ejercicio5 {
             System.out.println("Excepcion atrapada en el nivel principal: "+e.getMessage());
 
         }
-
-
-
-
-
-
-
     }
 
 

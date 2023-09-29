@@ -8,11 +8,7 @@ import java.sql.SQLException;
 public class Ejercicio7 {
     public static void main(String[] args) {
 
-
-
-
         try {
-
 
             // Intenta establecer una conexión con el servidor de base de datosusuario
             Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mi_basededatos", "", "contraseña");
@@ -25,11 +21,6 @@ public class Ejercicio7 {
             JOptionPane.showMessageDialog(null, "Error al conectar con la base de datos: " + e.getMessage());
 
 
-
-
         }
-
-
-
     }
 }

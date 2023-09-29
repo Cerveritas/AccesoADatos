@@ -11,6 +11,10 @@ public class Ejercicio3 {
         Scanner sc = new Scanner(System.in);
 
 
+        /** DE ESTA MANERA GENERAMOS UNA EXCEPTCION DE TIPO JAVA.UTIL.MISMATCH.EXCEPTCION
+         * Y A LA HORA DE QUE EL USUARIO INDIQUE ALGUN CARACTER FUERA DE UN NUMERO
+         * AUTOMATICAMENTE SATE LA EXCEPTCION
+         */
         try{
 
             int numero = 0;

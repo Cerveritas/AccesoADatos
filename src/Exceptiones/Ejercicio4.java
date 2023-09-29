@@ -8,6 +8,10 @@ public class Ejercicio4 {
 
         Scanner sc = new Scanner(System.in);
 
+        /* RETOCAMOS UN EJERCICIO HECHO ANTERIORMETE PARA QUE SALTE EXCEPTION
+        * CUANDO LA NOTA SEA UN SUSPENSO
+        *
+          */
 
         try {
             int nota = 0;
