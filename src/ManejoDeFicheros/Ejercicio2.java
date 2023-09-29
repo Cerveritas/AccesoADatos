@@ -41,9 +41,5 @@ public class Ejercicio2 {
         System.out.println("Fichero 2 eliminado correctamente... "+f2.delete());
         System.out.println("Directorio eliminador correctamente... "+d.delete());
 
-
-
-
-
     }
 }

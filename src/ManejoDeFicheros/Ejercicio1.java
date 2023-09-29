@@ -43,10 +43,5 @@ public class Ejercicio1 {
             System.out.println(ioe.getMessage());
             System.exit(-2);
         }
-
-
-
-
-
     }
 }
