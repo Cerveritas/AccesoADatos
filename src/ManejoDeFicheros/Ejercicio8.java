@@ -1,11 +1,13 @@
-package ManejoDeFicheros;
 
+package ManejoDeFicheros;
+/*
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
 
 public class Ejercicio8 {
+
     public static void main(String[] args) {
 
         // MUEVE LOS FICHEROS DE UN DIRECTORIO Y LOS PEGA EN OTRO DIRECTORIO
@@ -22,3 +24,4 @@ public class Ejercicio8 {
 
     }
 }
+*/

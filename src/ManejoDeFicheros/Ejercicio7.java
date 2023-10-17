@@ -1,3 +1,4 @@
+/*
 package ManejoDeFicheros;
 
 import org.apache.commons.io.FileUtils;
@@ -23,4 +24,5 @@ public class Ejercicio7 {
             ioe.printStackTrace();
         }
     }
-}
+} pone que no va mirar a ver en classe sino sale fileutils en rojo
+*/
