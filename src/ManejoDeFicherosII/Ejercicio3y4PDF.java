@@ -30,6 +30,7 @@ public class Ejercicio3y4PDF {
             f.close(); // <-- importante recordar cerrar el flujo de escritura para que funcione bien
 
 
+            // ahora creamos la clase de FIleReader para leer por consola el fichero creado y modificado anteriormente
             FileReader f1 = new FileReader(fichero1);
 
             // Leemos el contenido del fichero
