@@ -116,14 +116,9 @@ public class ficherosBinariosPersona  {
 
 
 
-
-
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
 
         }
-
     }
-
-
 }
