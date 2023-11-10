@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE vehiculo [
+
+<!ELEMENT vehiculo (coche*, moto*, autobus*, camion*)>
+<!ATTLIST vehiculo matricula ID #REQUIRED>
+
+<!ELEMENT coche (marca, modelo, potencia)>
+<!ATTLIST coche numeroBastidor ID #REQUIRED>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT potencia (#PCDATA)>
+
+
+<!ELEMENT moto (Nruedas, tipo)>
+<!ELEMENT Nruedas (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+
+<!ELEMENT autobus (capacidadPasajeros, circular)>
+<!ELEMENT capacidadPasajeros (#PCDATA)>
+<!ELEMENT circular (#PCDATA)>
+
+<!ELEMENT camion (peso, tipoUso)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT tipoUso (#PCDATA)>
+
+
+]>
+
+
+<vehiculo matricula="GBV6986">
+	<coche numeroBastidor="A123456789">
+		<marca>Fiat</marca>
+		<modelo>Bravo</modelo>
+		<potencia>150cv</potencia>
+	</coche>
+	<coche numeroBastidor="B123456789">
+		<marca>BMW</marca>
+		<modelo>E60</modelo>
+		<potencia>180cv</potencia>
+	</coche>
+	<coche numeroBastidor="C123456789">
+		<marca>Mercedes</marca>
+		<modelo>CLA</modelo>
+		<potencia>150cv</potencia>
+	</coche>
+	<coche numeroBastidor="D123456789">
+		<marca>Seat</marca>
+		<modelo>Ibiza</modelo>
+		<potencia>40000cv</potencia>
+	</coche>
+	<moto>
+		<Nruedas>2</Nruedas>
+		<tipo>Naked</tipo>
+	</moto>
+	<moto>
+		<Nruedas>2</Nruedas>
+		<tipo>Deportiva</tipo>
+	</moto>
+	<moto>
+		<Nruedas>3</Nruedas>
+		<tipo>Scooter</tipo>
+	</moto>
+	<autobus>
+		<capacidadPasajeros>30</capacidadPasajeros>
+		<circular>Verde</circular>
+	</autobus>
+	<autobus>
+		<capacidadPasajeros>20</capacidadPasajeros>
+		<circular>Roja</circular>
+	</autobus>
+	<autobus>
+		<capacidadPasajeros>100</capacidadPasajeros>
+		<circular>Alsa</circular>
+	</autobus>
+	<camion>
+		<peso>5050Kg</peso>
+		<tipoUso>Frigorifico</tipoUso>
+	</camion>
+	<camion>
+		<peso>12000kg</peso>
+		<tipoUso>Hormigonera</tipoUso>
+	</camion>
+	<camion>
+		<peso>6521Kg</peso>
+		<tipoUso>Cisterna</tipoUso>
+	</camion>
+</vehiculo>
