@@ -94,11 +94,15 @@ public class SimpleChatBot {
 
 
         // Almacena la nueva información en la base de conocimiento
-        knowledgeBase.put(question, answer);
-        System.out.println("¡He aprendido algo nuevo!");
+
+
+
 
         Properties properties = new Properties();
         try {
+
+            knowledgeBase.put(question, answer);
+            System.out.println("¡He aprendido algo nuevo!");
             properties.load(new FileInputStream(CONFIG_FILE_PATH));
             properties.setProperty(question, answer);
             FileOutputStream fileOutputStream = new FileOutputStream(CONFIG_FILE_PATH);
